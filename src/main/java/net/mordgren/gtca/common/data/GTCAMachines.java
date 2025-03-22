@@ -538,7 +538,7 @@ public class GTCAMachines {
                             .where("F", blocks(FIREBOX_TUNGSTENSTEEL.get()))
                             .where('M', abilities(PartAbility.MUFFLER))
                             .where('#', Predicates.air())
-                            .where("C", blocks(GTCABlocks.TANTALLOY61_CASING.get()).setMinGlobalLimited(11)
+                            .where("C", blocks(GTCABlocks.TANTALLOY61_CASING.get()).setMinGlobalLimited(8)
                                   .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                                   .or(autoAbilities(true, false, false)))
                             .build()
